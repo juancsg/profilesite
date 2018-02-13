@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: linear-gradient(rgb(27, 177, 170), rgb(23, 142, 230));
+	padding-top: 20px;
+}
+
+header h1 {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 50px;
+	letter-spacing: 1px;
+	color: #FFFFFF
+}
+
+.nav {
+		font-family: 'Bungee Inline', cursive;
+	width: 100%;
+	margin: 0;
+	background: #1B35B7;
+	padding: 5px;
+	text-align: center;
+}
+
+.nav_list {
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav_list li {
+	display: inline;
+}
+
+.nav_list a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+}
+
+.nav_list a:hover {
+	background: rgb(200, 200, 200);
+}
+
+.contact {
+	background: url(../img/AboutMe.jpg);
+	background-size: 100% auto;
+	margin: 0;
+	padding: 20px
+}
+
+.contact {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #7357AF;
+}
+
+.mid {
+	width: 100%;
+	background-image: url(../img/street.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.mid_img {
+	width: 17%;
+	margin: auto;
+}
+
+.mid_img img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.mid_text {
+	text-align: center;
+	background: rgba(231, 226, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .7);
+}
+
+.wood {
+	width: 100%;
+	background-image: url(../img/yellow_door.jpg);
+	background-position:center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	vertical-align: top;
+	background-size: cover;
+}
+
+.tree {
+	width: auto;
+	float: center;
+	margin: 50px 500px;
+	padding: 0px;
+	text-align: center;
+}
+
+.tree {
+	background: rgba(230, 220, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .8);
+}
+
+.tree_map {
+	margin; 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: text-top
+}

@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: linear-gradient(rgb(27, 177, 170), rgb(23, 142, 230));
+	padding-top: 20px;
+}
+
+header h1 {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 50px;
+	letter-spacing: 1px;
+	color: #FFFFFF
+}
+
+.nav {
+		font-family: 'Bungee Inline', cursive;
+	width: 100%;
+	margin: 0px 0 0;
+	background: #1B35B7;
+	padding: 5px;
+	text-align: center;
+}
+
+.nav_list {
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav_list li {
+	display: inline
+}
+
+.nav_list a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block
+}
+
+.nav_list a:hover {
+	background: rgb(200, 200, 200);
+}
+
+.about h2 {
+	background: url(../img/AboutMe.jpg);
+	background-size: 100% auto;
+	margin: 0;
+	padding: 20px
+}
+
+.about {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #7357AF;
+}
+
+.reason {
+	width: 100%;
+	background-image: url(../img/street.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center;
+	margin: 0px;
+	padding: 80px 10px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: top;
+}
+
+.reason_text {
+	margin: 40px;
+	width: 200px;
+	background: rgba(231, 226, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .7);
+	display: inline-block
+}
+
+.reason_img {
+	width: 50%;
+	margin: auto;
+	display: inline-block;
+}
+
+.reason_img img {
+	width: 35em;
+	display: block;
+	margin: auto;
+	padding: 5px;
+	background: rgba(231, 226, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .7);
+}
+
+.brown {
+	width: 100%;
+	background: url(../img/palm.jpg);
+	background-position: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+vertical-align: top;
+	background-size: cover
+}
+
+.movie {
+	margin: 140px;
+	width: 200px;
+	background:rgba(231, 226, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .8);
+	display: inline-block;
+	vertical-align: top;
+}
+
+.movie_img {
+	width: 50%;
+	display: inline-block;
+}
+
+.movie_img img {
+	width: 35em;
+	margin: 50px;
+	padding: 5px;
+	background: rgba(231, 226, 228, .8);
+	box-shadow: 1px 2px 8px 10px rgba(231, 226, 228, .7);
+}
